@@ -70,14 +70,19 @@ public class Runner {
 		System.out.println();
 		
 		
-		System.out.println("Conditionals Task5: Taxes");	
+		System.out.println("Conditionals Task6: Taxes");	
 		Taxes taxes = new Taxes();
-		System.out.println(taxes.taxPercentage(30000));
+		
+		taxes.taxPercentagePrint(30000);
+		taxes.taxPercentageCalculator(5000);
 		
 		
+		System.out.println();
 		
 		
-	
+		System.out.println("Conditionals Task7: FizzBuzz");	
+		FizzBuzz.FizzBuzz(100);
+		
 		
 	}
 	
