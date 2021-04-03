@@ -1,5 +1,5 @@
 package com.qa.day1;
-
+//Conditionals Task3
 public class FlowCharts {
 	
 	int result; 

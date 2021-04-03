@@ -4,6 +4,18 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
+		
+		System.out.println("Basics: Hello World Example ");
+		System.out.println("Hello World!");
+		
+		String text = "Hello World!";
+		System.out.println(text);
+		
+		System.out.println(printYourNameMethod("Usman!"));
+		
+		System.out.println();
+		
+		
 		System.out.println("Operators Task1: Calculator");
 		int add = Calculator.add(5, 5);
 		System.out.println(add);
@@ -48,6 +60,8 @@ public class Runner {
 		FlowCharts flow = new FlowCharts();
 		System.out.println(flow.takes3(3, 5, false));
 		
+		flow.flowchart(2500);
+		
 		
 		System.out.println();
 		
@@ -76,17 +90,20 @@ public class Runner {
 		taxes.taxPercentagePrint(30000);
 		taxes.taxPercentageCalculator(5000);
 		
-		
 		System.out.println();
-		
+		System.out.println();
+
 		
 		System.out.println("Conditionals Task7: FizzBuzz");	
 		FizzBuzz.FizzBuzz(100);
 		
-		
 	}
 	
-	
+	public static String printYourNameMethod(String name) {
+		String sayHello = "Hello " + name;
+		return sayHello;
+	 }
+
 	
 }
 
@@ -94,7 +111,17 @@ public class Runner {
 
 /*
  
- Random Gunk:
+ Random----------------
+ 
+Hello World Example//
+Output "Hello World!" to the console.
+Store "Hello World!" in a variable and then output it to the console.
+Create a method that takes a String as a parameter, and then outputs it to the console.
+Modify your method to return a String once called, which you then use to output to the console.
+
+
+
+
  		boolean bool1 = true;
 		boolean bool2 = false;
 		

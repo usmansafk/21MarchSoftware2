@@ -41,8 +41,6 @@ public class Taxes {
 		System.out.print("Taxed Amount:" + taxedAmount);
 		return taxedAmount;
 	
-
-
 	}
 }
 

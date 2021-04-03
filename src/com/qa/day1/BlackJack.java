@@ -1,5 +1,5 @@
 package com.qa.day1;
-
+//Conditionals Task4
 public class BlackJack {
 	
 	public int blackjacklol(int a, int b) {

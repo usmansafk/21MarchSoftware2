@@ -1,5 +1,5 @@
 package com.qa.day1;
-
+//Conditionals Task5
 public class UniqueSum {
 	
 	public int uniquesum(int a, int b, int c) {

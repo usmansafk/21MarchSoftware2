@@ -10,12 +10,18 @@ public class ResultsRevisted {
 	static int total;
 	static double percentage = (60/100) * 150;
 	double passmark;
+	
+	String[] classes = {"Physics", "chemistry", "Biology"};
+	
 			
 			
 
 //Method 3 - displays the results that the person got for each exam and then the total mark. 
 //Try to make the output neat and be spoke for each exam.
 	public void method3(int test1, int test2, int test3) {
+		
+		
+		
 			
 		System.out.print("Physhics Mark: " + test1);
 		if (test1<percentage) {

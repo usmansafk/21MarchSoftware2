@@ -14,18 +14,18 @@ public class Main {
 		Iteration.forLoop(5);
 		Iteration.whileLoop("Cust");
 		
-		
 		System.out.println();
+		
+		//  ---------------------------------------------------------------------
 		
 		System.out.println("Iterations Task: FlowCharts");
 		
 		FlowCharts.flowchart1();
+		FlowCharts.flowcharts2();
+		FlowCharts.printNum1();
+		FlowCharts.printNum2();
+		FlowCharts.multiplicationTable();
 		
-		
-		
-		
-		
-	
 
 	}
 
