@@ -26,6 +26,17 @@ public class Main {
 		FlowCharts.printNum2();
 		FlowCharts.multiplicationTable();
 		
+		//  ---------------------------------------------------------------------
+
+		System.out.println("Task: Enhanced For Loops");
+		
+		ForEach.task1();
+		ForEach.task2();
+		System.out.println(ForEach.task3(5));
+		ForEach.task4();
+
+		
+		
 
 	}
 
