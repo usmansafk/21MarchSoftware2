@@ -34,10 +34,29 @@ public class Main {
 		ForEach.task2();
 		System.out.println(ForEach.task3(5));
 		ForEach.task4();
-
+		
+		//  ---------------------------------------------------------------------
+		
+		System.out.println("String Manipulation Exercises:");
+		
+		StringManipulation.stringConcat();
+		StringManipulation.stringLength("Usman");
 		
 		
-
+		
+		//  ---------------------------------------------------------------------
+		
+		System.out.println("Change Exercise: ");
+		Coins.change(5.0, 20.00);
+		
+		//  ---------------------------------------------------------------------
+		
+		System.out.println("Numbers Exercise: ");
+		
+		System.out.println(Numbers.addTwoNums(25));
+		
+		
+		//
 	}
 
 }
