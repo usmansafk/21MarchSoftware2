@@ -3,15 +3,24 @@ package com.qa.day2;
 //TBC......
 public class Numbers {
 	
-	public static void twoDigits(int num) {
-		if (num >= 10 && num <= 99) {
-			
-		
+	public static int addTwoNums(int num) {
+		int val = 0;
+		while (num >= 10 && num <= 99) {// 11
+			num = num - 10;// 1
+			val++;// 1
 		}
+		while (num >= 1 && num <= 9) {
+			num = num - 1;// 0
+			val++;// 1+1
+		}
+		return val;// 2
 	}
 	
 
+	
 }
+	
+
 
 
 
