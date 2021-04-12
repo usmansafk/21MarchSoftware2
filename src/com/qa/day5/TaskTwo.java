@@ -1,31 +1,33 @@
 package com.qa.day5;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class TaskTwo {
 	// instance variables
-	private String name;
-	private int age;
-	private String jobTitle;
+	protected String name;
+	protected int age;
+	protected String jobTitle;
 
-	// getters and setters
+	public Scanner scanner = new Scanner(System.in);
+
 	public String getName() {
-		return this.name;
-	}
-
-	public int getAge() {
-		return this.age;
-	}
-
-	public String jobTitle() {
-		return this.jobTitle;
+		return name;
 	}
 
 	public void setName(String name) {
 		this.name = name;
 	}
 
+	public int getAge() {
+		return age;
+	}
+
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public String getJobTitle() {
+		return jobTitle;
 	}
 
 	public void setJobTitle(String jobTitle) {
@@ -64,6 +66,8 @@ public class TaskTwo {
 		}
 
 	}
+
+
 
 }
 
