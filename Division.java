@@ -1,6 +1,4 @@
-package com.qa.Exception;
-
-public class Division{
+class Division{
 
 	public static void main (String[] args){
 
