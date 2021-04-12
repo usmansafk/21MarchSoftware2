@@ -10,6 +10,8 @@ public class Runner {
 		//Scans.learnScanner();
 		//TaskOne.calc();
 		
+		//-----------------
+		
 		TaskTwo a = new TaskTwo("Bob", 25, "Builder");
 		TaskTwo b = new TaskTwo("Sam", 19, "Student");
 		TaskTwo c = new TaskTwo("Usman", 23, "Software Developer");
@@ -22,6 +24,9 @@ public class Runner {
 		
 		
 		TaskTwo.searchPerson("Usman");
+		
+		
+		
 	
 		
 		
