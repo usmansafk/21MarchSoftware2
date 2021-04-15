@@ -1,5 +1,5 @@
 package DataStructures;
-
+//Practising logic
 public class Databases {
 
 	Record[] recs = new Record[3];
